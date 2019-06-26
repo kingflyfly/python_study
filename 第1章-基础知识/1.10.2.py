@@ -1,0 +1,5 @@
+print("yan""zhe")
+print("yanzhe""3")
+print("yanzhe" * 3)
+print("yan"+"zhe")
+print("hello\n1")

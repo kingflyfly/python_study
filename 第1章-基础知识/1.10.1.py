@@ -1,0 +1,7 @@
+print("hello,world!")
+print('hello,world!')
+print("hello,world!")
+print("hello\'s,world!")
+print("hello\'s,world!")
+print("sd\"f")
+print("\"hello\" she said:")

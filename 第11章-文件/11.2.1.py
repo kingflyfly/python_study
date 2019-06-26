@@ -1,0 +1,8 @@
+f = open(r"D:\somefile.txt", "w")
+f.write('Hello, ')
+f.write('World!')
+f.close()
+f = open("D:\somefile.txt")
+print(f.read(3))
+print(f.read(5))
+print(f.read())

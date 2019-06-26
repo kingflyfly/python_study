@@ -1,0 +1,11 @@
+print("generator")
+a = (x * x for x in range(4))
+print(a)
+print(next(a))
+print(next(a))
+print(next(a))
+print(a.__next__())
+b = (x * x for x in range(4))
+for i in b:
+    print(i)
+print(next(b))
