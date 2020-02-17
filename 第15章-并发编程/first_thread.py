@@ -3,7 +3,7 @@ import threading
 
 def action(max):
     for j in range(max):
-        print(threading.current_thread().getName() + " " + str(j))
+        print(threading.current_thread().getName() + "----" + str(j))
 
 
 for i in range(100):
