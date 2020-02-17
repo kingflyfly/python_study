@@ -17,6 +17,7 @@ def removeDir(file_name):
         os.rmdir(file_name);  # os.rmdir() 方法用于删除指定路径的目录。仅当这文件夹是空的才可以,否则, 抛出OSError。
 
 
+
 if __name__ == '__main__':
     # 指定源目录和目标目录
     # source_dir = input("输入源目录：")
