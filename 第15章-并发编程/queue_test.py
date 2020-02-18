@@ -1,7 +1,9 @@
 import queue
-bq = queue.Queue(2)
+bq = queue.Queue(maxsize=10)
+bq.put('python')
 bq.put('python')
 bq.put('python')
 print('---------------------------')
-bq.put('python')
-print('2')
+print(bq.qsize())
+print(bq.empty())
+print(bq.get())
