@@ -1,5 +1,5 @@
 import queue
-bq = queue.Queue(maxsize=10)
+bq = queue.Queue()
 bq.put('python')
 bq.put('python')
 bq.put('python')
