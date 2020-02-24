@@ -1,6 +1,7 @@
 import threading
 import time
 import queue
+
 q = queue.Queue()
 """
     Queue 模块中的 task_done , join
@@ -12,11 +13,11 @@ q = queue.Queue()
 """
 
 
-def worker(q):
+def worker(q1):
     time.sleep(0.5)
     item = q.get()  # 获取
-    print('{} get {} , {} left'.format(threading.currentThread().ident, item, q.qsize()))
-    q.task_done()  # 处理完成
+    print('{} get {} , {} left'.format(threading.currentThread().ident, item, q1.qsize()))
+    q1.task_done()  # 处理完成
 
 
 for i in range(5):  # 创建5个线程去获取

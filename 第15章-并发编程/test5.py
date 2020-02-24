@@ -16,7 +16,6 @@ def cousume(name):
     while True:
         print('{}装备了{}'.format(name,q.get()))
         time.sleep(0.3)
-        # q.task_done()
 
 
 #部队线程

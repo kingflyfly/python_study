@@ -8,7 +8,6 @@ def q_put():
         q.put('1')
     while True:
         q.put('2')
-
         time.sleep(1)
 
 

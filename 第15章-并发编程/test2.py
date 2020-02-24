@@ -29,7 +29,6 @@ class Consumer(threading.Thread):
 
 if __name__ == '__main__':
     queue = Queue()
-
     for i in range(500):
         queue.put('初始产品' + str(i))
     print(queue.qsize())
