@@ -1,5 +1,4 @@
 def test(func):
-
     def test1():
         print(3)
         func()
