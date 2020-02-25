@@ -5,7 +5,7 @@ import queue
 
 def producer():
     count = 1
-    while 1:
+    while True:
         q.put('No.%i' % count)
         print('Producer put No.%i' % count)
         time.sleep(1)
@@ -13,7 +13,7 @@ def producer():
 
 
 def customer(name):
-    while 1:
+    while True:
         print('%s get %s' % (name, q.get()))
         time.sleep(1.5)
 

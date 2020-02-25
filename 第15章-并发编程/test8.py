@@ -6,9 +6,9 @@ que = queue.Queue()
 
 
 class Testthread(threading.Thread):
-    def __init__(self, que):
+    def __init__(self, que1):
         threading.Thread.__init__(self)
-        self.queue = que
+        self.queue = que1
 
     def run(self):
         while True:

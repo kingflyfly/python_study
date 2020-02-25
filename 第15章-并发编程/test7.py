@@ -26,6 +26,4 @@ for i in range(5):  # 创建5个线程去获取
 for i in range(10):
     q.put([chr(i), i])  # 入队10个
 print('main thread running')
-# for i in range(5):            #你也可以这么玩
-#     q.task_done()
 q.join()  # 阻塞,直到调用10次task_done
