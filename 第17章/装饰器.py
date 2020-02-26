@@ -3,6 +3,7 @@ def test(func):
         print(3)
         func()
     return test1
+
 @test
 def test2():
     print(2)
