@@ -8,4 +8,4 @@ print(bq.empty())
 
 print(bq.get())
 print(bq.get())
-print(bq.get())
+print(bq.get_nowait())
