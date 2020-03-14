@@ -1,3 +1,4 @@
+#迭代器
 class test:
     def __init__(self):
         self.a = 0
@@ -8,4 +9,7 @@ class test:
     def __iter__(self):
         return self
 r = test()
+print(next(r))
+print(next(r))
+print(next(r))
 

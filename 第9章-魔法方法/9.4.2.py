@@ -10,10 +10,9 @@ class Person:
     name_value = property(getName,setName,delName)
 
 p = Person()
-#p.name_value = "yanzhe"
-p.setName("shanshan")
-#n = p.name_value
+# p.name_value = "yanzhe"
+# p.setName("shanshan")
+n = p.name_value
 print(p.getName())
-#print(n)
-#del p.name_value
-#print(p.name_value)
+# del p.name_value
+# print(p.name_value)

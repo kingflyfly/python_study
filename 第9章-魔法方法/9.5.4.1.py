@@ -6,4 +6,5 @@ class Ren(object):
             self.__dict__[name] = value
 
 p = Ren()
-p.yanzhe
+p.yanzhe = 20
+print(p.__dict__)
