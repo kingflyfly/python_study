@@ -4,7 +4,6 @@ class A:
 class B(A):
     def Hello(self):
         print("Hello,I'm B")
-    pass
 
 a = A()
 a.Hello()
